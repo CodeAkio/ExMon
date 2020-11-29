@@ -12,4 +12,8 @@ defmodule ExMon.Game.Actions do
       if value == move, do: {:ok, key}
     end)
   end
+
+  def attack(move) do
+    #
+  end
 end
