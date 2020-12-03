@@ -1,23 +1,27 @@
 # ExMon
 
-**TODO: Add description**
+RPG similar ao Pokémon via terminal criado em Elixir.
 
-## uUsage
+## Utilização
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ex_mon` to your list of dependencies in `mix.exs`:
-
-```console
-iex -S mix
-```
-```console
-(iex)> player = ExMon.create_player("Victor", :chute, :soco, :cura)
-(iex)> ExMon.start_game(player)
-(iex)> ExMon.make_move(:chute)
-
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ex_mon](https://hexdocs.pm/ex_mon).
-
+  1. Clone o projeto com o git clone;
+  2. Entre no diretório do projeto:
+  ```console
+  cd ex_mon
+  ```
+  3. Entre no modo interativo:
+  ```console
+  iex -S mix
+  ```
+  4. Crie seu personagem passando o nome do jogador, o ataque especial, o ataque normal e a habilidade de cura:
+  ```console
+  (iex)> player = ExMon.create_player("Victor", :chute, :soco, :cura)
+  ```
+  5. Inicie o jogo:
+  ```console
+  (iex)> ExMon.start_game(player)
+  ```
+  6. Escolha seu movimento:
+  ```console
+  (iex)> ExMon.make_move(:chute)
+  ```
