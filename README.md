@@ -25,3 +25,10 @@ RPG similar ao Pokémon via terminal criado em Elixir.
   ```console
   (iex)> ExMon.make_move(:chute)
   ```
+
+## Testes
+
+Para executar os testes:
+```console
+mix test
+```
