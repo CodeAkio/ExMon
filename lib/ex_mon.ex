@@ -26,7 +26,7 @@ defmodule ExMon do
 
   defp do_move({:ok, move}) do
     case move do
-      :move_real -> "realiza_cura"
+      :move_real -> Actions.heal
       move -> Actions.attack(move)
     end
 
